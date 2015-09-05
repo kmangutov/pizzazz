@@ -26,7 +26,7 @@ p {
 
 .input-hex {
   clear: right;
-  display: auto !important;
+  display: inline-block !important;
   box-sizing: auto !important;
   width: auto !important;
   font-family: 'Inconsolata', serif;
@@ -39,6 +39,20 @@ p {
 .font-code {
   font-family: 'Inconsolata', serif;
   font-size: 16px;
+}
+
+.font-label {
+  font-family: 'Lato', sans-serif;
+  //font-family: 'Inconsolata', serif;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 32px;
+  padding: 20px;  
+}
+
+.block-color {
+  position: relative;
 }
 
 .height-full {
